@@ -1,6 +1,3 @@
-# From-BPE-to-Byte-Level-Processing---Building-from-scratch
-An educational implementation of a custom Byte-Level BPE (BBPE) tokenizer built from scratch, integrated with an LSTM neural network for next-word prediction
-
 # Subword Tokenization: From BPE to Byte-Level Processing
 
 This repository contains the practical implementation for my university Machine Learning assignment on Advanced Natural Language Processing (NLP) tokenization. 
@@ -22,9 +19,10 @@ The project demonstrates the end-to-end pipeline of algorithmic text processing,
 ## ⚙️ How to Run
 This code is designed to be fully reproducible and runs flawlessly in Google Colab or any local Jupyter/Python environment. 
 
-1. Clone this repository or copy the `main.py` script.
-2. Ensure TensorFlow is installed (`pip install tensorflow numpy`).
-3. Run the script. 
+1. Clone this repository or download the source code.
+2. Install the required dependencies using the provided requirements file:
+   ```bash
+   pip install -r requirements.txt
 
 The script will automatically:
 * Download the required dataset slice dynamically.
